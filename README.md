@@ -1,41 +1,50 @@
-# Polityka Prywatności aplikacji DrumCalc
+# Privacy Policy / Polityka Prywatności - DrumCalc
 
-Niniejsza polityka prywatności określa zasady gromadzenia, wykorzystywania i przechowywania informacji przez aplikację mobilną **DrumCalc** (zwaną dalej „Aplikacją”), stworzoną przez dewelopera **Siasiek**.
+## [ENGLISH]
 
-## 1. Jakie dane gromadzimy?
+### 1. General Information
+The **DrumCalc** mobile application (the "App") is a financial calculator developed by **Siasiek**. This policy explains how we handle data when you use our App.
 
-### Dane wprowadzane przez użytkownika
-Aplikacja pozwala na tworzenie kalkulacji finansowych. W ramach korzystania z funkcji „Udostępnij” lub „Archiwum w chmurze”, następujące dane są przesyłane do bazy danych Firebase (Cloud Firestore):
-*   Nazwy kalkulacji.
-*   Imiona/nazwy uczestników.
-*   Kwoty wydatków oraz przypisane kategorie.
-*   Daty utworzenia wpisów.
+### 2. Data Collection and Usage
+The App does not require user registration. However, it uses **Google Firebase** services for certain features:
+*   **Cloud Firestore:** When you use "Share" or "Cloud Archive" features, calculation data (names, participant names, amounts, categories) are uploaded to the cloud.
+*   **Firebase Remote Config:** Used to check for app updates.
+*   **Google Play Services:** Collected by Google for technical stability.
 
-### Dane zbierane automatycznie
-Podczas korzystania z Aplikacji, usługi stron trzecich mogą zbierać anonimowe informacje techniczne:
-*   **Firebase Remote Config:** Służy do sprawdzania dostępności nowych wersji aplikacji.
-*   **Google Play Services:** Podstawowe dane o urządzeniu i systemie operacyjnym w celu zapewnienia stabilności działania.
+### 3. Data Security
+Data shared to the cloud is identified only by a random, unique Document ID. Only users with the exact link can access the shared data. All transmission is encrypted via HTTPS.
 
-## 2. Cel gromadzenia danych
-Dane przesyłane do chmury są gromadzone wyłącznie w celu:
-1.  **Udostępniania kalkulacji:** Generowanie unikalnego linku, który pozwala innym użytkownikom (znającym ten link) na pobranie danych.
-2.  **Kopii zapasowej:** Umożliwienie użytkownikowi przywrócenia swoich danych po reinstalacji aplikacji.
-3.  **Synchronizacji:** Odświeżania danych w udostępnionych kalkulacjach.
+### 4. Third-Party Services
+The App uses services from Google. You can find their privacy policies here:
+* [Google Play Services](https://www.google.com/policies/privacy/)
+* [Firebase](https://firebase.google.com/support/privacy)
 
-## 3. Bezpieczeństwo danych
-*   **Firestore:** Dane przechowywane są w chmurze Google Firebase. Dostęp do konkretnej kalkulacji jest możliwy tylko dla osób posiadających unikalny, losowo wygenerowany identyfikator (ID dokumentu).
-*   **Szyfrowanie:** Wszystkie dane są przesyłane między Aplikacją a serwerem przy użyciu bezpiecznego protokołu HTTPS.
-*   **Anonimowość:** Aplikacja nie wymaga zakładania konta, podawania adresu e-mail ani numeru telefonu. Dane w chmurze nie są powiązane z Twoją tożsamością w świecie rzeczywistym.
+### 5. Data Deletion
+Users can delete their data from the cloud using the "Delete" function within the App.
 
-## 4. Usługi stron trzecich
-Aplikacja korzysta z usług Google, które posiadają własne polityki prywatności:
-*   [Google Play Services](https://www.google.com/policies/privacy/)
-*   [Firebase Remote Config / Firestore](https://firebase.google.com/support/privacy)
+---
 
-## 5. Prawa użytkownika
-Użytkownik ma prawo do:
-*   Wglądu w swoje dane (poprzez samą Aplikację).
-*   Usunięcia danych – usunięcie kalkulacji lokalnie oraz w chmurze (za pomocą funkcji „Usuń” w menu aplikacji).
+## [POLSKI]
 
-## 6. Kontakt
-W razie pytań dotyczących niniejszej polityki prywatności, możesz skontaktować się z deweloperem pod adresem: lukbebdev@gmail.com
+### 1. Informacje ogólne
+Aplikacja mobilna **DrumCalc** ("Aplikacja") to kalkulator finansowy stworzony przez dewelopera **Siasiek**. Niniejsza polityka wyjaśnia, jak postępujemy z danymi.
+
+### 2. Gromadzenie i wykorzystywanie danych
+Aplikacja nie wymaga rejestracji. Korzysta jednak z usług **Google Firebase** w celu realizacji wybranych funkcji:
+*   **Cloud Firestore:** Gdy korzystasz z funkcji „Udostępnij” lub „Archiwum w chmurze”, dane kalkulacji (nazwy, imiona uczestników, kwoty, kategorie) są przesyłane do chmury.
+*   **Firebase Remote Config:** Służy do sprawdzania dostępności aktualizacji aplikacji.
+*   **Google Play Services:** Dane techniczne zbierane przez Google w celu zapewnienia stabilności.
+
+### 3. Bezpieczeństwo danych
+Dane przesyłane do chmury są identyfikowane wyłącznie przez unikalny, losowy identyfikator dokumentu. Dostęp do nich mają tylko osoby posiadające dokładny link. Transmisja jest szyfrowana (HTTPS).
+
+### 4. Usługi stron trzecich
+Aplikacja korzysta z usług Google. Ich polityki prywatności znajdziesz tutaj:
+* [Google Play Services](https://www.google.com/policies/privacy/)
+* [Firebase](https://firebase.google.com/support/privacy)
+
+### 5. Usuwanie danych
+Użytkownik może usunąć swoje dane z chmury za pomocą funkcji „Usuń” wewnątrz Aplikacji.
+
+---
+**Contact / Kontakt:** [TWÓJ E-MAIL]
